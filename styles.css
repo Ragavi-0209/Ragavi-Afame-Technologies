@@ -1,0 +1,55 @@
+body {
+  font-family: Cursive;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  background-color: #F7C5CC;
+  color:  #CC313D; 
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #F7C5CC;
+  text-decoration: none;
+}
+
+.section {
+  padding: 50px 0;
+}
+
+.portfolio-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.portfolio-item {
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+.portfolio-item img {
+  max-width: 100%;
+}
